@@ -14,6 +14,27 @@ This repository provides a Docker Compose setup for a full monitoring stack incl
 
 ## Prerequisites
 
+### Docker
+- Windows: Docker Desktop (requires WSL2)
+- macOS: Docker Desktop for Mac
+- Linux: Docker Engine via package manager
+- Recommended: Docker v20+
+
+### Docker Compose
+- Included with Docker Desktop (Windows & macOS)
+- Linux: may need manual installation
+- Recommended: Compose v1.29+
+
+### Windows Users Only
+- WSL2 enabled
+- Linux distro installed from Microsoft Store (e.g., Ubuntu)
+
+### General Requirements
+- Basic knowledge of:
+  - Docker
+  - Environment variables (.env)
+  - Running docker compose commands
+
 Before starting, ensure you have the following installed:
 
 - [Docker](https://docs.docker.com/get-docker/) (v20+ recommended)
